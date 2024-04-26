@@ -126,13 +126,13 @@ button {
 	background-image: url(images/moon\ crater.jpg);
 	background-size: contain;
 	background-color: #EB808D;
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	cursor: pointer;
 	display: inline-flex;
-	width: 200px;
-	height: 70px;
+	width: 150px;
+	height: 60px;
 	font-family: inherit;
-	font-size: 30px;
+	font-size: 25px;
 	align-items: center;
 	justify-content: center;
 	transition: 0.2s ease-in-out;
@@ -276,7 +276,7 @@ h1.bold-text {
 }
 
 .main-text img {
-	/* width: 70%; */
+	width: 70%;
 	text-align: center;
 }
 
@@ -408,19 +408,31 @@ img#comm {
 
 .check ul {
 	list-style: none;
+	margin-top: 40px;
 }
 .check ul li {
 	display: flex;
-	padding-top: 1em;
+padding-block: 2em;
+flex-direction: column;
+	background-color: #5C8A17;
+	border: 2px solid black;
+	border-radius: 20px;
+	font-size: 1.5rem;
+	margin-inline: 30px;
+	align-items: center;
+	margin-bottom: 33px;
+	justify-content: center;
 	max-width: 650px;
 }
 .check ul li img {
 	padding-right: 1em;
+	width: 100px;
 }
 .check ul li p {
 	margin-top: 5px;
-	font-weight: 700;
-	border-bottom: 1.5px solid #EB808D;
+	color: white;
+	font-weight: 900;
+	/* border-bottom: 1.5px solid #EB808D; */
 }
 
 .checksmart ul li p {
@@ -430,10 +442,10 @@ img#comm {
 .nft-insur button,
 .smart-1 button {
 	border-radius: 12px;
-	margin-top: 5em;
+	margin-top: 2em;
 	color: black;
 	width: 200px;
-	height: 50px;
+	height: 60px;
 	font-size: 20px;
 	display: flex;
 	align-items: center;
@@ -633,7 +645,7 @@ footer p {
 .buttons button {
 	/* width: 100%; */
 	height: 60px;
-	padding-inline: 150px;
+	padding-inline: 110px;
 	margin-top: 20px;
 	color: white;
 	white-space: nowrap;
@@ -880,6 +892,9 @@ footer p {
 	position: absolute;
 	width: 20%;
 	height: 20%;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
 	border: 4px solid #EB808D;
 }
 
