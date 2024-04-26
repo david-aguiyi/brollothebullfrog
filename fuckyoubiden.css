@@ -162,6 +162,7 @@ button:active {
 .whole {
 	background-color: #5C8A17;
 	margin: 30px;
+	color: white;
 	padding: 20px;
 	border: 2px solid #660F0E;
 	border-radius: 12px;
@@ -172,6 +173,7 @@ button:active {
 }
 
 .left h1 {
+	color: white;
 	font-size: 40px;
 	font-weight: 700;
 }
@@ -623,6 +625,7 @@ footer p {
 }
 
 .descript {
+	color: white;
 	margin-top: 20px;
 	font-size: 1.4em;
 }
